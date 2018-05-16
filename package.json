@@ -1,0 +1,18 @@
+{
+  "name": "jbdesarrollo",
+  "version": "1.0.0",
+  "description": "Servidor JB desarrollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jb"
+  },
+  "keywords": [
+    "jbdesarrollo",
+    "backend"
+  ],
+  "author": "Jhon Barcasnegras",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
