@@ -5,6 +5,8 @@ app.get('/', function (req, res) {
     res.send('Hello World!');
 });
 
-app.listen(3000, function () {
-    console.log('Winter is coming!');
+var port = process.env.PORT || 5000;
+
+app.listen(port, function () {
+    console.log('Winter is coming!!! ' + port + '!');
 });
